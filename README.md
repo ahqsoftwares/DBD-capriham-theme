@@ -9,7 +9,14 @@ npm i dbd-capriham-theme
 
 # Docs
 
-https://assistants.ga/dbd-docs/#/?id=themes
+https://assistants.ga/dbd-docs/#/?id=capriham
+
+# Look
+
+![image1](https://cdn.assistants.ga/kqwivftx)
+![image2](https://cdn.assistants.ga/kqwiwlw2)
+![image3](https://cdn.assistants.ga/kqwiwvr1)
+![image4](https://cdn.assistants.ga/kqwix3i7)
 
 # Usage
 
