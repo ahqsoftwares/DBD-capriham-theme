@@ -29,6 +29,11 @@ const CaprihamTheme = require('dbd-capriham-theme');
 const Dashboard = new DBD.Dashboard({
 ...
     theme: CaprihamTheme({
+        privacypolicy: {
+            websitename: "Assistants",
+            websiteurl: "https://assistants.ga/",
+            supportemail: "support@assistants.ga"
+        },
         websiteName: "Assistants",
         iconURL: 'https://assistants.ga/ac_logo_v6.png',
         index: {
