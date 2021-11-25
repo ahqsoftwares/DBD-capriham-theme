@@ -8,6 +8,8 @@ module.exports = (themeConfig={}) => {
                 res.render('commands', {req:req,config:config,themeConfig:themeConfig});
             });
 
+            
+
             app.use('/privacy-policy', (req,res) => {
                 res.render('pp', {req:req,config:config,themeConfig:themeConfig});
             });
