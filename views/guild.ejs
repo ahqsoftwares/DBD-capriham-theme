@@ -28,22 +28,18 @@
         ;
             background: #f9f9ff;
        }
-
        .option-flex {
          display: flex;
          flex-wrap: wrap;
        }
-
        .fake-real {
         box-sizing: border-box;
         width: 5% !important;
        }
-
        .real-option {
         box-sizing: border-box;
         width: 95% !important;
        }
-
        .select2-container--default .select2-selection--multiple {
            background: #f9f9ff !important;
            border-color: #f9f9ff !important;
@@ -118,7 +114,6 @@
          margin: 4px 2px;
          cursor: pointer;
          }
-
          h1, h2, h3, h4, h5, h6 {
             margin-bottom: 0rem !important;
          }
@@ -211,12 +206,9 @@
                                                                                     })%>
                                                                               </select>
                                                                            <%
-
                                                                            } else if(option.optionType == "spacer") {%>
-
                                                                            <h3><b><%=option.text%></b></h3>
                                                                            <%=option.description%>
-
                                                                            <%} else if(option.optionType.type == "multiSelect") {
                                                                            %>
                                                                            <h4><%=option.optionName%></h4>
@@ -312,7 +304,6 @@
                                        <%})
                                           %>
                                        <br>
-
                                        <button type="submit">Submit</button>
                                     </form>
                                  </div>
