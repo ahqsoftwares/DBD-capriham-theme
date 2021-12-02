@@ -1,4 +1,3 @@
-var successes;
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -152,8 +151,7 @@ var successes;
                                        %>
                                  </div>
                               </nav>
-                              <%if(successes == null && errors == null){%>
-                              <%}else if(req.query.success == 'true' && req.query.error == 'false'){%>
+                              if(req.query.success == 'true' && req.query.error == 'false'){%>
                               <div id="alert_success" style="padding-top: 5px;">
                                  <div class="alert alert-dismissible alert-success" onclick="document.getElementById('alert_success').innerHTML=''">
                                     <strong>Success!</strong> All changes saved! <u>Click to close</u>
